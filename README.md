@@ -56,6 +56,12 @@ Command suggested  esptool.py –chip esp32s2 –port (COMPORT) –baud 115200 w
 
 Command worked esptool.py write_flash 0x000 “adafruit-circuitpython-lilygo_ttgo_t8_s2_st7789-xx_XX-6.2.0.bin”
 
+esptool.py write_flash 0x000 “adafruit-circuitpython-lilygo_ttgo_t8_s2_st7789-xx_XX-6.2.0.bin”
+
+
+esptool.py write_flash 0x000 "adafruit-circuitpython-espressif_saola_1_wroom-en_GB-6.3.0.bin"
+
+
 Output during Flashing
 
     esptool.py write_flash 0x000 "adafruit-circuitpython-lilygo_ttgo_t8_s2_st7789-en_GB-6.3.0.bin"
