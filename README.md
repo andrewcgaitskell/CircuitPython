@@ -50,4 +50,9 @@ python -m pip install mu-editor
 
 python -m mu
 
+# Flashing to ESP32S2
+
+Command suggested  esptool.py –chip esp32s2 –port (COMPORT) –baud 115200 write_flash 0x000 “adafruit-circuitpython-lilygo_ttgo_t8_s2_st7789-xx_XX-6.2.0.bin”
+
+Command worked esptool.py write_flash 0x000 “adafruit-circuitpython-lilygo_ttgo_t8_s2_st7789-xx_XX-6.2.0.bin”
 
