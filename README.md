@@ -58,30 +58,30 @@ Command worked esptool.py write_flash 0x000 “adafruit-circuitpython-lilygo_ttg
 
 Output during Flashing
 
-esptool.py write_flash 0x000 "adafruit-circuitpython-lilygo_ttgo_t8_s2_st7789-en_GB-6.3.0.bin"
-esptool.py v3.1
-Found 1 serial ports
-Serial port /dev/ttyUSB0
-Connecting........_
-Detecting chip type... ESP32-S2
-Chip is ESP32-S2
-Features: WiFi, ADC and temperature sensor calibration in BLK2 of efuse
-Crystal is 40MHz
-MAC: 7c:df:a1:0d:f7:86
-Uploading stub...
-Running stub...
-Stub running...
-Configuring flash size...
-Flash will be erased from 0x00000000 to 0x0014dfff...
-Compressed 1367600 bytes to 866339...
-Wrote 1367600 bytes (866339 compressed) at 0x00000000 in 76.6 seconds (effective 142.8 kbit/s)...
-Hash of data verified.
+    esptool.py write_flash 0x000 "adafruit-circuitpython-lilygo_ttgo_t8_s2_st7789-en_GB-6.3.0.bin"
+    esptool.py v3.1
+    Found 1 serial ports
+    Serial port /dev/ttyUSB0
+    Connecting........_
+    Detecting chip type... ESP32-S2
+    Chip is ESP32-S2
+    Features: WiFi, ADC and temperature sensor calibration in BLK2 of efuse
+    Crystal is 40MHz
+    MAC: 7c:df:a1:0d:f7:86
+    Uploading stub...
+    Running stub...
+    Stub running...
+    Configuring flash size...
+    Flash will be erased from 0x00000000 to 0x0014dfff...
+    Compressed 1367600 bytes to 866339...
+    Wrote 1367600 bytes (866339 compressed) at 0x00000000 in 76.6 seconds (effective 142.8 kbit/s)...
+    Hash of data verified.
 
-Leaving...
-(env-mu) andrewcgaitskell@andrewcgaitskell-ubuntu:~/Downloads$ python -m mu
-Logging to /home/andrewcgaitskell/.cache/mu/log/mu.log
-(env-mu) andrewcgaitskell@andrewcgaitskell-ubuntu:~/Downloads$ python -m mu
-Logging to /home/andrewcgaitskell/.cache/mu/log/mu.log
+    Leaving...
+    (env-mu) andrewcgaitskell@andrewcgaitskell-ubuntu:~/Downloads$ python -m mu
+    Logging to /home/andrewcgaitskell/.cache/mu/log/mu.log
+    (env-mu) andrewcgaitskell@andrewcgaitskell-ubuntu:~/Downloads$ python -m mu
+    Logging to /home/andrewcgaitskell/.cache/mu/log/mu.log
 
 python -m pip install --upgrade --force-reinstall adafruit-blinka Adafruit-PlatformDetect
 
