@@ -24,3 +24,7 @@ https://github.com/platformio/platform-espressif32/issues/349
 
 https://circuitpython.readthedocs.io/en/latest/ports/esp32s2/README.html
 
+
+https://circuitpython.org/board/lilygo_ttgo_t8_s2_st7789/
+
+
