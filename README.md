@@ -31,12 +31,16 @@ https://circuitpython.org/board/lilygo_ttgo_t8_s2_st7789/
 # Installing Python 3.7
 
 sudo add-apt-repository ppa:deadsnakes/ppa
-sudo apt-get update
-sudo apt-get install python3.7
-# Ideally install in a virtualenv, this will create it in the current wording directory, in a folder called "mu_venv"
 
+sudo apt-get update
+
+sudo apt-get install python3.7
 
 python3.7 -m pip install pip
+
+~/Documents/Code/env-mu/bin/python -m pip install --upgrade pip
+
+sudo apt-get install python3.7-venv
 
 python3.7 -m venv mu-venv
 
@@ -46,7 +50,4 @@ python -m pip install mu-editor
 
 python -m mu
 
-
-
-/home/andrewcgaitskell/Documents/Code/env-mu/bin/python -m pip install --upgrade pip
 
