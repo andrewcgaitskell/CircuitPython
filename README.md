@@ -39,8 +39,11 @@ sudo apt-get install python3.7
 python3.7 -m pip install pip
 
 python3.7 -m venv mu-venv
+
 source mu-venv/bin/activate
+
 python -m pip install mu-editor
+
 python -m mu
 
 
