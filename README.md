@@ -83,4 +83,6 @@ Logging to /home/andrewcgaitskell/.cache/mu/log/mu.log
 (env-mu) andrewcgaitskell@andrewcgaitskell-ubuntu:~/Downloads$ python -m mu
 Logging to /home/andrewcgaitskell/.cache/mu/log/mu.log
 
+python -m pip install --upgrade --force-reinstall adafruit-blinka Adafruit-PlatformDetect
+
 
