@@ -1,5 +1,11 @@
 # CircuitPython
 
+# PC Operating System
+
+Ubuntu on Dual Boot with Windows
+
+Ubuntu 20.04.2 LTS
+
 # Board
 
 LilyGo
@@ -10,11 +16,15 @@ ESP32_S2_WOOR
 
 Chip ESP32-S2-WROOM
 
+# Circuit Python Download
+
 Stupidly looked for LilyGo Circuit Python and wasted a few hours
 
 Then tried WROOM version and all is well.
 
         saola_1_wroom-en_GB
+
+https://circuitpython.org/board/espressif_saola_1_wroom/
 
 # Found Comments about Board
 
@@ -23,11 +33,6 @@ It is working. Esptool v.3 is needed to flash. I can't find MicroPython for this
 
 https://github.com/platformio/platform-espressif32/issues/349
 
-
-
-# Installing
-
-https://circuitpython.readthedocs.io/en/latest/ports/esp32s2/README.html
 
 # Installing Python 3.7
 
@@ -63,4 +68,10 @@ My existing Python 3.8 did not support Mu, so needed to install previous version
 ## Command worked
 
        esptool.py write_flash 0x000 "adafruit-circuitpython-espressif_saola_1_wroom-en_GB-6.3.0.bin"
+
+
+# Once Flashed changed to OTG Mode
+
+Toggle all DIP switches
+
 
